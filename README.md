@@ -10,12 +10,12 @@ Please open the Microsoft Word versions of the documentation instead of the PDFs
 
 ---
 
-![Mental Health Dashboard Preview](mental_health_dashboard.png)
-
 ## Deliverables and steps taken:
 
 1.  **Data Cleanup:** Performed a full audit of the dataset to ensure data integrity.
 2.  **Quality Assurance:** Confirmed there were 0 duplicates, 0 missing values, and 0 outliers in key fields like Sleep Hours and Stress Levels.
+
+![Univariate Data Distribution](univariate.png)
 
 ## Statistical Analysis
 
@@ -26,6 +26,8 @@ A T-Test showed that males and females have nearly identical sleep averages. The
 
 * **P-value:** 0.84 (higher than 0.05 alpha)
 * **T-statistic:** -0.19 (too close to zero)
+
+![T-Distribution Analysis](t%20distribution.png)
 
 ### 2. Stress vs. Job
 A Mann-Whitney test showed that being a "Student" vs "Employed" didn't show significant change in stress levels in this group.
